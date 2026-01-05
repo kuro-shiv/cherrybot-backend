@@ -1,0 +1,26 @@
+{
+  "name": "cherrybot-backend",
+  "version": "1.0.0",
+  "description": "Backend service for Cherrybot — an AI chatbot powered by Hugging Face.",
+  "type":"module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuro-shiv/cherrybot-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuro-shiv/cherrybot-backend/issues"
+  },
+  "homepage": "https://github.com/kuro-shiv/cherrybot-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
