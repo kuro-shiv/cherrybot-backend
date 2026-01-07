@@ -2,7 +2,7 @@
   "name": "cherrybot-backend",
   "version": "1.0.0",
   "description": "Backend service for Cherrybot — an AI chatbot powered by Hugging Face.",
-  "type":"module",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -21,6 +21,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
   }
 }
