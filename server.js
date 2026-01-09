@@ -3,6 +3,8 @@ import cors from "cors"
 import dotenv from "dotenv"
 import connectDB from "./config/db.js"
 import authRoutes from "./routes/auth.routes.js"
+import chatRoutes from "./routes/chat.routes.js"
+
 
 dotenv.config()
 connectDB()
@@ -16,6 +18,8 @@ app.use(express.json())
 app.get("/", (req, res) => {
   res.send("Cherrybot backend is running 🍒")
 })
+
+app.use("/api/chat", chatRoutes)
 
 app.use("/api/auth", authRoutes)
 
